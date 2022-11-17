@@ -1,7 +1,7 @@
 /** @format */
 
 const MyNav = () => {
-  return <div></div>;
+  return <nav className="navbar-expand-md navBar"></nav>;
 };
 
 export default MyNav;
