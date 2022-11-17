@@ -1,6 +1,7 @@
 /** @format */
 
 import { useEffect, useState } from "react";
+import { Container, Row } from "react-bootstrap";
 
 const ContactUs = () => {
   const [list, setList] = useState([]);
@@ -26,7 +27,13 @@ const ContactUs = () => {
       console.log(error);
     }
   };
-  return <></>;
+  return (
+    <>
+      <Container>
+        <Row></Row>
+      </Container>
+    </>
+  );
 };
 
 export default ContactUs;
