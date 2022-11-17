@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <MyNav />
-      <div className="App">
+      <div className="app">
         <Route />
       </div>
     </BrowserRouter>
