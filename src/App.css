@@ -20,3 +20,8 @@
   padding: 0.5rem 11rem;
   z-index: 4;
 }
+.registrationForm {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+}
