@@ -2,14 +2,19 @@
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MyNav from "./components/MyNav";
+import AllJobs from "./components/AllJobs";
 
 function App() {
   return (
     <BrowserRouter>
-      <MyNav />
-      <div className="app"></div>
+      <div className="app">
+        <MyNav />
+        <Routes>
+          <Route path="/AllJobs" element={<AllJobs />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }
