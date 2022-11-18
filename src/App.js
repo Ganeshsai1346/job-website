@@ -11,9 +11,11 @@ function App() {
     <BrowserRouter>
       <div className="app">
         <MyNav />
-        <Routes>
-          <Route path="/AllJobs" element={<AllJobs />} />
-        </Routes>
+        <div className="pt-5">
+          <Routes>
+            <Route path="/AllJobs" element={<AllJobs />} />
+          </Routes>
+        </div>
       </div>
     </BrowserRouter>
   );
