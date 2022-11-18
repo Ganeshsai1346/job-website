@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Button, Card, Col, Container, Form, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { Spinner } from "react-spinners";
 import { SpinnerCircular } from "spinners-react";
 import SingleJob from "./SingleJob";
 
